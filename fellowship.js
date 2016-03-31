@@ -3,7 +3,7 @@ var fellowship = {
   hobbits: [
     "Frodo Baggins",
     "Samwise 'Sam' Gamgee",
-    "Meriadoc \"Merry\" Brandybuck",
+    'Meriadoc "Merry" Brandybuck',
     "Peregrin 'Pippin' Took"
   ],
   buddies: [
@@ -16,14 +16,13 @@ var fellowship = {
   lands: [
     "The Shire", "Rivendell", "Mordor"
   ],
-  makeMiddleEarth: function(lands) {
-    console.log(lands)
+  makeMiddleEarth: function() {
     // create a section tag with an id of middle-earth
     // add each land as an article tag
     // inside each article tag include an h1 with the name of the land
     // append middle-earth to your document body
   },
-  makeHobbits: function(hobbits) {
+  makeHobbits: function() {
     // display an unordered list of hobbits in the shire
     // give each hobbit a class of hobbit
   },
@@ -31,7 +30,7 @@ var fellowship = {
     // create a div with an id of 'the-ring'
     // add the ring as a child of Frodo
   },
-  makeBuddies: function(buddies) {
+  makeBuddies: function() {
     // create an aside tag
     // display an unordered list of buddies in the aside
     // insert your aside before rivendell
