@@ -1,5 +1,5 @@
 // Dramatis Personae
-var fellowship = {
+let fellowship = {
   hobbits: [
     "Frodo Baggins",
     "Samwise 'Sam' Gamgee",
